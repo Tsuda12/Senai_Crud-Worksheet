@@ -10,10 +10,18 @@ class Deletar(janelaspy.DeletarTela.Ui_Form):
     def __init__(self):
         self.janela = uic.loadUi("janelasui/deletar.ui")
         self.planilha = pd.read_excel("planilha/Hospedagem.xlsx")
-        self.janela.btn_deletar.clicked.connect(self.deletar_hospedagem)
+        self.mostrar_planilha()
+        #elf.janela.btn_deletar.clicked.connect(self.deletar_hospedagem)
         self.janela.show()
 
 
     #MÉTODOS
-    def deletar_hospedagem(self):
-        print('Deletado')
+    def mostrar_planilha(self):
+        #--Exibe linhas e colunas da planilha
+        self.janela.tbl_planilha.setRowCount(self.planilha.shape[0])
+        self.janela.tbl_planilha.setColumnCount(self.planilha.shape[1])
+
+        #--Nomeia as colunas
+        self.janela.tbl_planilha.setHorizontalHeaderLabels(self.planilha.columns)
+
+        #--Itens nas linhas
