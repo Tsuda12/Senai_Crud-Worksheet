@@ -6,7 +6,7 @@ SOBRE O PROJETO:
 TECNOLOGIAS UTILIZADAS:
   - PyQT5 e QTDesigner (Interfaces).
   - PyCharm (IDE).
-  - Linguagem (Python).
+  - Python (Linguagem)
  
 OBSERVAÇÕES:
   - Não há tratamentos de erros.
