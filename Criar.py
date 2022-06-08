@@ -19,7 +19,6 @@ class Criar(janelaspy.CriarTela.Ui_Form):
         qtd_linha = len(self.planilha)
 
         for i in range(1, qtd_linha):
-            self.planilha.loc[qtd_linha+1, 'Numero'] = int(qtd_linha+1)
             self.planilha.loc[qtd_linha+1, 'Ano'] = int(self.janela.spb_ano.text())
             self.planilha.loc[qtd_linha+1, 'Proponente'] = self.janela.lne_propornente.text().upper()
             self.planilha.loc[qtd_linha+1, 'Proposto'] = self.janela.lne_proposto.text().upper()
@@ -35,7 +34,4 @@ class Criar(janelaspy.CriarTela.Ui_Form):
             self.planilha.loc[qtd_linha + 1, 'Valor'] = self.janela.spb_valor.text()
             self.planilha.loc[qtd_linha+1, 'Status'] = self.janela.cbx_status.currentText().upper()
 
-
-
         self.planilha.to_excel("planilha/Hospedagem.xlsx", index=False)
-        print(self.planilha.to_string())

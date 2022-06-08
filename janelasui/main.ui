@@ -120,7 +120,7 @@
        <property name="font">
         <font>
          <family>Montserrat</family>
-         <pointsize>14</pointsize>
+         <pointsize>12</pointsize>
          <weight>75</weight>
          <bold>true</bold>
         </font>
@@ -136,7 +136,7 @@
 color: white;</string>
        </property>
        <property name="text">
-        <string>Criar</string>
+        <string>CRIAR</string>
        </property>
        <property name="flat">
         <bool>false</bool>
@@ -166,7 +166,7 @@ color: white;</string>
        <property name="font">
         <font>
          <family>Montserrat</family>
-         <pointsize>14</pointsize>
+         <pointsize>12</pointsize>
          <weight>75</weight>
          <bold>true</bold>
         </font>
@@ -182,7 +182,7 @@ color: white;</string>
 color: white;</string>
        </property>
        <property name="text">
-        <string>Ler</string>
+        <string>LER</string>
        </property>
        <property name="flat">
         <bool>false</bool>
@@ -212,7 +212,7 @@ color: white;</string>
        <property name="font">
         <font>
          <family>Montserrat</family>
-         <pointsize>14</pointsize>
+         <pointsize>12</pointsize>
          <weight>75</weight>
          <bold>true</bold>
         </font>
@@ -228,7 +228,7 @@ color: white;</string>
 color: white;</string>
        </property>
        <property name="text">
-        <string>Atualizar</string>
+        <string>ATUALIZAR</string>
        </property>
        <property name="flat">
         <bool>false</bool>
@@ -258,7 +258,7 @@ color: white;</string>
        <property name="font">
         <font>
          <family>Montserrat</family>
-         <pointsize>14</pointsize>
+         <pointsize>12</pointsize>
          <weight>75</weight>
          <bold>true</bold>
         </font>
@@ -274,7 +274,7 @@ color: white;</string>
 color: white;</string>
        </property>
        <property name="text">
-        <string>Deletar</string>
+        <string>DELETAR</string>
        </property>
        <property name="flat">
         <bool>false</bool>
