@@ -1,6 +1,12 @@
 # Senai_Planilha-Hospedagem
-Projeto Planilha PyQT (Finalizado)
 
-- Fiz um CRUD (Create, Read, Update, Delete) dentro de uma planilha específica.
-- Utilizei o PyQT5 e o QTDesigner para desenvolver as interfaces.
-- Não há tratamentos de erros.
+SOBRE O PROJETO:
+  - CRUD (Create, Read, Update, Delete) dentro de uma planilha Excel específica.
+  
+TECNOLOGIAS UTILIZADAS:
+  - PyQT5 e QTDesigner (Interfaces).
+  - PyCharm (IDE).
+  - Linguagem (Python).
+ 
+OBSERVAÇÕES:
+  - Não há tratamentos de erros.
