@@ -1,12 +1,15 @@
 # Senai_Planilha-Hospedagem
 
-SOBRE O PROJETO:
-  - CRUD (Create, Read, Update, Delete) dentro de uma planilha Excel específica.
-  
-TECNOLOGIAS UTILIZADAS:
-  - PyQT5 e QTDesigner (Interfaces).
+ABOUT THE PROJECT:
+- CRUD within a specific Excel worksheet.
+
+STATUS:
+- Finished.
+
+TECHNOLOGIES USED:
+  - PyQT5 e QTDesigner (Window).
   - PyCharm (IDE).
-  - Python (Linguagem)
+  - Python (Language).
  
-OBSERVAÇÕES:
-  - Não há tratamentos de erros.
+COMMENTS:
+  - There is no error handling.
